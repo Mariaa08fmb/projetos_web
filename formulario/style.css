@@ -1,0 +1,37 @@
+body {
+font-family: sans-serif;
+display:  flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(242, 227, 255);
+min-height: 100vh;
+}
+form {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea { 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    background-color: rgb(119, 182, 240);
+    padding: 12px 20px; /* 12px altura e 20px laterais*/
+    border: none; /*sem borda*/
+    cursor: pointer;/*altera o cursor do mouse*/
+}
+button:hover { /*mouse sobre o botão*/
+background-color: #f1f1f1;
+}
