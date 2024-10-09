@@ -49,8 +49,8 @@ i{
 }
 
 .cabecalho-botao:hover{ /* muda a cor do botão com a ação do mouse*/
-    background-color: rgb(11, 168, 37);
-    border: 1px solid rgb(11, 168, 37);
+    background-color: rgb(49, 42, 145);
+    border: 1px solid rgb(49, 48, 158);
     color: rgb(0, 0, 0);
 }
 
@@ -201,14 +201,14 @@ i{
     display: flex; /* posiciona os elementos na horizontal*/
     justify-content: space-between; /*adiciona o espaçamento entre os elementos*/
     padding: 14px; /* espaçamento de 14px*/
-    background-color: rgb(83, 92, 173);
+    background-color: rgb(131, 140, 218);
     z-index: 99; /* posiciona a div corte a frente da imagem*/
     display: flex;
 }
 
 .corte-info button{
     color: #fff; /* cor da fonte branca*/
-    background-color:rgb(77, 88, 190);/* cor de fundo vermelha*/
+    background-color:rgb(131, 141, 228);/* cor de fundo vermelha*/
     padding: 4px 8px; /* espaçamento interno acima/abaixo 4px, esquerda/direita 8px*/
     border-radius: 4px; /* arredonda as bordas da caixa*/
     border: 0; /* sem borda visivel*/
