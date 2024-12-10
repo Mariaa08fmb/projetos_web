@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.size_transition {
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'segoe UI';
+}
+.size_transition:hover {
+    width: 200px;
+    height: 150px;
+    font-size: 1.5rem;
+
+}
+
